@@ -27,5 +27,30 @@ I also have some sample code in here.  It is a project that I did in my Udacity 
 - [Wasserstein_GAN_1701_07875.pdf](https://github.com/the-john/GANs/blob/master/Wasserstein_GAN_1701_07875.pdf)
 - [improved-training-techniques.pdf](https://github.com/the-john/GANs/blob/master/improved-training-techniques.pdf)
 
+## Additional Assets
+
+There is a [/asset/](https://github.com/the-john/GANs/tree/master/assets) folder that contains graphics to support the jupyter notebook files used for the sample code.
+
+There is a [/generative-models-master](https://github.com/the-john/GANs/tree/master/generative-models-master) folder holds a bunch of really good stuff.
+  - 20 different GAN models
+  - 5 Variational Autoencoders
+  - 2 Restricted Boltzmann Machines
+  - A Helmholtz Machine
+
+    Please refer to the README.md file included for details on Dependencies in this folder
+    
+## MNIST_GAN Sample Code
+There is some useful sample code in the jupyter notebook [MNIST_GAN_Solution.ipynb](https://github.com/the-john/GANs/blob/master/MNIST_GAN_Solution.ipynb).
+
+This is a simple GAN that is trained on the MNIST dataset.  The idea is to be able to generate new handwritten digits from noise.
+
+Here we create Generator and Discriminator networks, generate a latent vector from latent space, and create a model.  An interesting thing about this code is the ability to quickly start playing with hyperparameters to see the effects.  
+
 ## Face Generation Sample Code
+This is some interesting jupyter notebook sample code [dlnd_face_generation%20(1).ipynb](https://github.com/the-john/GANs/blob/master/dlnd_face_generation%20(1).ipynb).
+
+Here we create a Deep Convolutional GAN (DCGAN).  We train it on pictures of celebrities, then generate a totally new face from noise.  The output is a bit crude, mainly due to the low resolution of the output images.  But it's an amazing concept.  
+
+We get the celebrity images from [CelebA.html](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). You can get pre-processed image set from here [processed-celeba-small.zip](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip).  Here the images are reduced to 64x64x2 and cropped to the faces only.
+
 
