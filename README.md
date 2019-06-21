@@ -4,7 +4,7 @@ In this repository I've accumulated a bunch of White Papers and publications rel
 
   - My hope is that, over time, I will be able to walk through all of these publications.  GitHub is a cool place where I should be able to gain access to these publications from wherever.
 
-I also have some sample code in here.  It is a project that I did in my Udacity Deep Learning Nano Degree training.  It takes in 
+I also have some sample code in here.  It is a project that I did in my Udacity Deep Learning Nano Degree training.  It takes in hand written characters of numbers from the MNIST data set and generates its own numbers from noise.  Pretty cool.
 
 ## Publications
 
