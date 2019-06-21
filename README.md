@@ -1,4 +1,4 @@
-# GANs & Face Generation Sample Code
+# GANs & MNIST Trained Sample Code
 
 In this repository I've accumulated a bunch of White Papers and publications related to GANs (*Generative Adversarial Networks*).  
 
@@ -45,12 +45,3 @@ There is some useful sample code in the jupyter notebook [MNIST_GAN_Solution.ipy
 This is a simple GAN that is trained on the MNIST dataset.  The idea is to be able to generate new handwritten digits from noise.
 
 Here we create Generator and Discriminator networks, generate a latent vector from latent space, and create a model.  An interesting thing about this code is the ability to quickly start playing with hyperparameters to see the effects.  
-
-## Face Generation Sample Code
-This is some interesting jupyter notebook sample code [dlnd_face_generation%20(1).ipynb](https://github.com/the-john/GANs/blob/master/dlnd_face_generation%20(1).ipynb).
-
-Here we create a Deep Convolutional GAN (DCGAN).  We train it on pictures of celebrities, then generate a totally new face from noise.  The output is a bit crude, mainly due to the low resolution of the output images.  But it's an amazing concept.  
-
-We get the celebrity images from [CelebA.html](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). You can get pre-processed image set from here [processed-celeba-small.zip](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip).  Here the images are reduced to 64x64x2 and cropped to the faces only.
-
-
